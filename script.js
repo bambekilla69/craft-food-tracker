@@ -1,5 +1,5 @@
 async function loadItems() {
-  const response = await fetch("WORKER_URL_GOES_HERE");
+  const response = await fetch("https://craft-food-worker.jahmiahelb.workers.dev/");
   const data = await response.json();
 
   const table = document.getElementById("items");
